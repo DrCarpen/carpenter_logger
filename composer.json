@@ -1,0 +1,20 @@
+{
+    "name" : "drcarpen/carpenter_logger",
+    "description" : "logger adapter",
+    "type" : "composer-plugin",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Dr Lee",
+            "email" : "952154830@qq.com"
+        }
+    ],
+    "minimum-stability" : "stable",
+    "require" : {},
+    "autoload" : {
+        "psr-4" : {
+            "Flowers\\Rose\\" : "src/Flower/Rose",
+            "Flower\\Lily\\" : "src/Flower/Lily"
+        }
+    }
+}
