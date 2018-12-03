@@ -1,7 +1,7 @@
 {
     "name" : "drcarpen/carpenter_logger",
     "description" : " logger adapter",
-    "type" : "composer-plugin ",
+    "type" : "library",
     "license" : "MIT",
     "authors" : [
         {
