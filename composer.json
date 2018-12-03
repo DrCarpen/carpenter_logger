@@ -1,7 +1,7 @@
 {
     "name" : "drcarpen/carpenter_logger",
-    "description" : "logger adapter",
-    "type" : "composer-plugin",
+    "description" : " logger adapter",
+    "type" : "composer-plugin ",
     "license" : "MIT",
     "authors" : [
         {
@@ -9,12 +9,13 @@
             "email" : "952154830@qq.com"
         }
     ],
-    "minimum-stability" : "stable",
-    "require" : {},
+    "minimum-stability" : "dev",
+    "require" : {
+        "php" : ">=7.0"
+    },
     "autoload" : {
         "psr-4" : {
-            "Flowers\\Rose\\" : "src/Flower/Rose",
-            "Flower\\Lily\\" : "src/Flower/Lily"
+            "Carpenter\\Logger\\" : "src/"
         }
     }
 }
